@@ -37,8 +37,10 @@
 
 /* previous-year-container styles */
 
-.previous-year-container {
-    margin: 100px 150px;
+.previous-year-container,
+.plans-container,
+.call-container {
+    margin: 100px 150px 0 150px;
 }
 
 .previous-year {
@@ -64,4 +66,63 @@
 .fa-solid {
     padding-right: 10px;
     color: rgb(86, 84, 238);
+}
+
+/* Plans styles */
+
+.plans-header {
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-header {
+    font-size: 32px;
+    padding: 15px 0;
+}
+
+.plan-text {
+    font-weight: 800;
+    font-size: 21px;
+    color: rgb(100, 99, 99);
+
+}
+
+/* Call Section styles */
+
+.call-container {
+    background-image: linear-gradient(to right, rgba(253, 74, 3, 0.76), rgba(160, 150, 157, 0.73)), url(../images/watch.png);
+    height: 280px;
+    margin-bottom: 70px;
+    border-radius: 7px;
+}
+
+.call {
+    width: 400px;
+    padding: 60px 0 40px 80px;
+}
+
+.positive-mindset {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.btn-call-now {
+    border-style: none;
+    border-radius: 5px;
+    color: rgba(253, 74, 3, 0.76);
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
 }
