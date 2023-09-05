@@ -34,3 +34,34 @@
     font-weight: 500;
     font-size: 16px;
 }
+
+/* previous-year-container styles */
+
+.previous-year-container {
+    margin: 100px 150px;
+}
+
+.previous-year {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.previous-year-text {
+    padding-top: 70px;
+}
+
+.section-header {
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.previous-year-text p {
+    padding: 0 0 10px 0;
+}
+
+.fa-solid {
+    padding-right: 10px;
+    color: rgb(86, 84, 238);
+}
